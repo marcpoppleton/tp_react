@@ -20,12 +20,20 @@ export function Characters() {
   }
 
   useEffect(() => {
+    console.log(`fetching : ${serverUrl}`);
     fetch(serverUrl)
       .then(res => res.json())
       .then(json => {
+        console.log(`json ${JSON.stringify(json)}`)
         setCharacters(json)
+      })
+      .catch((e) => console.error(`Critical failure: ${e.message}`))
+      .finally(() => {
+        console.log('Experiment completed');
       });    
   },[]);
+
+  console.log(`characters ${characters}`);
 
   if(characters==[]){
     return (

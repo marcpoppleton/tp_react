@@ -1,6 +1,6 @@
 //import React from "react";
 
-import { render } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import { configure } from '@testing-library/dom'
 configure({ testIdAttribute: 'id' })
 

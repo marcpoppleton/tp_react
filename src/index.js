@@ -39,6 +39,6 @@ const container = document.getElementById('root');
 const root = createRoot(container);
 //root.render(exo1);
 //root.render(exo2);
-//root.render(exo3);
+root.render(exo3);
 //root.render(exo4);
-root.render(exo5);
+//root.render(exo5);
