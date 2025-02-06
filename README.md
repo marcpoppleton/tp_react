@@ -12,7 +12,7 @@ Installe les dépendances définies dans le package.json<br />
 ### `npm start`
 
 Lance l'app en mode development avec hot reload.<br />
-Ouvrez [http://localhost:3000](http://localhost:3000) pour la visualiseer dans votre navigateur.
+Ouvrez [http://localhost:3000](http://localhost:3000) pour la visualiser dans votre navigateur.
 
 ### `npm test`
 
